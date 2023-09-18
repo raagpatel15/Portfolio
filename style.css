@@ -1,1 +1,50 @@
-where the font ans sizing will go 
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 3;
+} /* for the consistency*/
+
+h2,h3{
+  text-align: center; /* so so the other headers are centered*/
+}
+h3{
+  font-size: 23px ;
+}
+
+header{ /* for the header and for color,font and the font size*/
+  background-color: #2f4f4f;
+  color: white;
+  padding: 20px ;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace ;
+   font-size: 30px ;
+}
+/* for header design*/
+
+nav{
+  text-align: center ;
+  margin-top: 20px ;
+  word-spacing: 3px;
+
+  
+}
+/* style navigation bar*/
+
+
+main{
+  background-color:#d3d3d3 ;
+  font-family:monospace ;
+  color:black;
+  font-size: 20px;
+  text-align:left;
+}
+/*background color and font*/
+
+footer{
+  background-color:#2f4f4f ;
+  color: white;
+  text-align: center ;
+  padding:20px ;
+  font-family:monospace ;
+  font-size: 18px;
+}
+/* foot style*/ 
