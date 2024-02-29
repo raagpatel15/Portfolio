@@ -13,10 +13,11 @@ h3{
 header{ /* for the header and for color,font and the font size*/
   background-color: #2f4f4f;
   color: white;
-  padding: 20px ;
+  padding: 20px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace ;
-   font-size: 30px ;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  height: 100px;
 }
 /* for header design*/
 
