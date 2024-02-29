@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Portfolio</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
 
   <link href="style.css" rel="stylesheet"  type="text/css" />
 
@@ -25,57 +25,56 @@
   <main>
     <div>
       <article>
-        <section> <!-- going to have 3 different sections for each other the requirements that are needed for this web page-->
-        <h2>Hi! My Name is Raag Patel</h2>
-        <p>
-          I am currently in the Software Engineering Flex program at Thinkful living in Indianapolis, Indiana. I'm also in college at IUPUI for Computer Science.
-        </p>
-      </section>
+        <div> <!-- using div instead of section -->
+          <h2>Hi! My Name is Raag Patel</h2>
+          <p>
+            I am currently in the Software Engineering Flex program at Thinkful living in Indianapolis, Indiana. I'm also in college at IUPUI for Computer Science.
+          </p>
+        </div>
    
-<hr> <!-- to separate each of the sections with a line when the web page is loaded-->
+        <hr> <!-- to separate each of the sections with a line when the web page is loaded-->
   
-  <section> <!--About me section-->
-<section id="About"> <!-- direct link to from the navigation-->
-  <h2>About Raag</h2>
-<p>
-  Web development isn't just a job for me it's a passion that fuels my creativity. Also web development is has limitless potential in what you can do. 
-</p>  
-
-  
-  <p> But what makes this journey even more thrilling is the opportunity to work with others. Collaboration is at the heart of web development, and I look forward for the chance to collaborate with fellow developers.</p>
-</section>
+        <div id="About"> <!-- using div instead of section -->
+          <h2>About Raag</h2>
+          <p>
+            Web development isn't just a job for me it's a passion that fuels my creativity. Also web development is has limitless potential in what you can do. 
+          </p>  
+          <p> But what makes this journey even more thrilling is the opportunity to work with others. Collaboration is at the heart of web development, and I look forward for the chance to collaborate with fellow developers.</p>
+        </div>
     
-    <section>
-<h3>My Other interests outside of Web Development are:</h3> <!--added bullet point to explain my interests in a simpler way-->
-<ul>
-  <li>Traveling with friends</li>
-  <li>Hiking</li>
-  <li>Going to the gym</li>
-  <li>Enjoying time with my dog (4 month old German Shepard)</li>
-  <li>Playing golf</li>
-</ul>  
-    </section>
-    <hr> <!-- to separate each of the sections with a line when the web page is loaded-->
+        <div>
+          <h3>My Other interests outside of Web Development are:</h3> <!--added bullet point to explain my interests in a simpler way-->
+          <ul>
+            <li>Traveling with friends</li>
+            <li>Hiking</li>
+            <li>Going to the gym</li>
+            <li>Enjoying time with my dog (4 month old German Shepard)</li>
+            <li>Playing golf</li>
+          </ul>  
+        </div>
+      
+        <hr> <!-- to separate each of the sections with a line when the web page is loaded-->
   
-      <section id="Contact">
-        <h2>Contact</h2>
-        <ol>
-          <li> <a href="https://www.linkedin.com/in/raag-patel-29ba63220">Linkedin</a> </li><!-- link to linkedin-->
-          <li> <a href="https://github.com/raagpatel15">Github</a> </li> <!-- link to github-->
+        <div id="Contact">
+          <h2>Contact</h2>
+          <ol>
+            <li> <a href="https://www.linkedin.com/in/raag-patel-29ba63220">Linkedin</a> </li><!-- link to linkedin-->
+            <li> <a href="https://github.com/raagpatel15">Github</a> </li> <!-- link to github-->
           </ol>
         
-      <img src="indy.webp" width ="700" alt="Italian Trulli"> <!--image of downtown indy added to web page-->
-        </section>
+          <img src="indy.webp" width="700" alt="Italian Trulli"> <!--image of downtown indy added to web page-->
+        </div>
   
-    </article>
-      </div>
+      </article>
+    </div>
   </main>
 
 
-    <footer> <!-- add this for the footer as it was used in the example given-->
-      <div>
-        ©Raag Patel
-      </div>
-    </footer>
-      </body>
-      </html>
+  <footer> <!-- add this for the footer as it was used in the example given-->
+    <div>
+      ©Raag Patel
+    </div>
+  </footer>
+</body>
+</html>
+
